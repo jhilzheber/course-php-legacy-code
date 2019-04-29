@@ -12,16 +12,16 @@
     <title>SB Admin - Dashboard</title>
 
     <!-- Bootstrap core CSS-->
-    <link href="public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
-    <link href="public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="//public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Page level plugin CSS-->
-    <link href="public/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="//public/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="public/css/sb-admin.css" rel="stylesheet">
+    <link href="//public/css/sb-admin.css" rel="stylesheet">
 
 </head>
 
@@ -29,7 +29,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
+    <a class="navbar-brand mr-1" href="//index.html">Start Bootstrap</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -97,7 +97,7 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="//index.html">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span>
             </a>
@@ -110,15 +110,15 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="pagesDropdown">
                 <h6 class="dropdown-header">Login Screens:</h6>
-                <a class="dropdown-item" href="/connexion">Connexion</a>
-                <a class="dropdown-item" href="/liste_des_utilisateurs">Liste utilisateurs</a>
-                <a class="dropdown-item" href="/ajouter_un_utilisateur">Ajouter un utilisateur</a>
-                <a class="dropdown-item" href="/mot_de_passe_oublie">Mot de passe oublié</a>
+                <a class="dropdown-item" href="//connexion">Connexion</a>
+                <a class="dropdown-item" href="//liste_des_utilisateurs">Liste utilisateurs</a>
+                <a class="dropdown-item" href="//ajouter_un_utilisateur">Ajouter un utilisateur</a>
+                <a class="dropdown-item" href="//mot_de_passe_oublie">Mot de passe oublié</a>
                 <div class="dropdown-divider"></div>
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="charts.html">
+            <a class="nav-link" href="//charts.html">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Charts</span></a>
         </li>
@@ -187,23 +187,23 @@
 </div>
 
 <!-- Bootstrap core JavaScript-->
-<script src="public/vendor/jquery/jquery.min.js"></script>
-<script src="public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/www/public/vendor/jquery/jquery.min.js"></script>
+<script src="/www/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Core plugin JavaScript-->
-<script src="public/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="/www/public/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Page level plugin JavaScript-->
-<script src="public/vendor/chart.js/Chart.min.js"></script>
-<script src="public/vendor/datatables/jquery.dataTables.js"></script>
-<script src="public/vendor/datatables/dataTables.bootstrap4.js"></script>
+<script src="/www/public/vendor/chart.js/Chart.min.js"></script>
+<script src="/www/public/vendor/datatables/jquery.dataTables.js"></script>
+<script src="/www/public/vendor/datatables/dataTables.bootstrap4.js"></script>
 
 <!-- Custom scripts for all pages-->
-<script src="public/js/sb-admin.min.js"></script>
+<script src="/www/public/js/sb-admin.min.js"></script>
 
 <!-- Demo scripts for this page-->
-<script src="public/js/demo/datatables-demo.js"></script>
-<script src="public/js/demo/chart-area-demo.js"></script>
+<script src="/www/public/js/demo/datatables-demo.js"></script>
+<script src="/www/public/js/demo/chart-area-demo.js"></script>
 
 </body>
 
