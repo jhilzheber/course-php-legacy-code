@@ -5,12 +5,12 @@ services:
     ports:
       - 80:80
     volumes:
-     - ./www:/var/www/html/
-     - ./docker/server/000-default.conf:/etc/apache2/sites-available/000-default.conf
-     - ./docker/server/apache2.conf:/etc/apache2/apache2.conf
-     - ./docker/server/php.ini:/usr/local/etc/php/php.ini
+      - ./www:/var/www/html/
+      - ./docker/server/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./docker/server/apache2.conf:/etc/apache2/apache2.conf
+      - ./docker/server/php.ini:/usr/local/etc/php/php.ini
     depends_on:
-     - database
+      - database
 
   database:
     image: mysql:5.7
@@ -29,4 +29,4 @@ services:
     ports:
       - 8080:80
     environment:
-        - PMA_ARBITRARY=1
+      - PMA_ARBITRARY=1
