@@ -25,7 +25,7 @@
   <body class="bg-dark">
 
     <div class="container">
-      <?php include $this->v;?>
+      <?php include $this->v; ?>
     </div>
 
     <!-- Bootstrap core JavaScript-->
